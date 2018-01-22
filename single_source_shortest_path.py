@@ -180,12 +180,4 @@ for element in ans:
     else:
         print element[0],-1
     
-#N, Source, D, C_1 , C_2 , D_1, D_2,  W_1 , W_2, W_3.
-#for i = 1 to N :  //Inclusive
-#	deg = (  i*C_2 + i*i*D_2  ) mod D
-#	for j = 1 to deg: //Inclusive
-#		temp_node.vertex = ( i*C_1 + j*D_1 ) mod N
-#		temp_node.vertex += 1
-#		temp_node.weight = ( i*W_1 + j*W_2 ) mod W_3		//Weight of edge ( i, temp_node.vertex)
-#		adj_list [ i ].enqueue( temp_node )
- # your code goes here
+
